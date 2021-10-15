@@ -20,7 +20,7 @@ public class Main {
         if (theBiggest<number2){
             theBiggest=number2;
         }
-        if (theBiggestk<number3){
+        if (theBiggest<number3){
             theBiggest=number3;
         }
         System.out.println("Largest Number : "+theBiggest);
