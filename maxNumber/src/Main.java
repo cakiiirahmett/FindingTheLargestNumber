@@ -6,24 +6,24 @@ public class Main {
 
         Scanner scanner=new Scanner(System.in);
 
-        System.out.print("1.Sayıyı Giriniz : ");
-        int sayi1=scanner.nextInt();
-        System.out.print("2.Sayıyı Giriniz : ");
-        int sayi2=scanner.nextInt();
-        System.out.print("3.Sayıyı Giriniz : ");
-        int sayi3=scanner.nextInt();
-        int enBüyük=0;
+        System.out.print("1.Enter Number : ");
+        int number1=scanner.nextInt();
+        System.out.print("2.Enter Number : ");
+        int number2=scanner.nextInt();
+        System.out.print("3.Enter Number : ");
+        int number3=scanner.nextInt();
+        int theBiggest=0;
 
-        if (enBüyük<sayi1){
-            enBüyük=sayi1;
+        if (theBiggest<number1){
+            theBiggest=number1;
         }
-        if (enBüyük<sayi2){
-            enBüyük=sayi2;
+        if (theBiggest<number2){
+            theBiggest=number2;
         }
-        if (enBüyük<sayi3){
-            enBüyük=sayi3;
+        if (theBiggestk<number3){
+            theBiggest=number3;
         }
-        System.out.println("En Büyük Sayi : "+enBüyük);
+        System.out.println("Largest Number : "+theBiggest);
 
 
 
